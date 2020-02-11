@@ -1,0 +1,19 @@
+Package: BayesDemog
+Type: Package
+Title: Bayesian Prediction of Demographic Indices
+Version: 0.1.1
+Authors@R: 
+    person(given = "Angelos",
+           family = "Alexopoulos",
+           role = c("aut", "cre"),
+           email = "aggelisalexopoulos@gmail.com")
+Description: Contains functions to conduct prediction of future mortality rates and survival probabilities by using Bayesian methods. The predictions are obtained by utilizing two models: the dynamic extension of the Heligman-Pollard model and a Gaussian Markov random field model. The package also contains functions to conduct Bayesian inference for the parameters and latent states of the models. See in Alexopoulos et al. (2019) <10.1111/rssa.12422> for methodological details.
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.6.0), stats
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2
+Imports: Rdpack, methods,MASS,Matrix,coda,sparseMVN,ggplot2,mvtnorm,TruncatedNormal,demography,StMoMo,MCMCpack,spam
+RdMacros: Rdpack
